@@ -1,0 +1,32 @@
+# ===== Keil MDK / ARMCC 编译中间产物（可重新生成，不入库）=====
+*.o
+*.d
+*.crf
+*.axf
+*.dep
+*.lnp
+*.lst
+*.map
+*.sct
+*.sct.Bak
+*.Bak
+*.htm
+*.html
+*.scvd
+*.iex
+*.uvguix.*
+*_uvguix.*
+
+# ===== Keil 输出目录（如命名与默认不同）=====
+Objects/
+Listings/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
+
+# ===== 说明 =====
+# 保留：*.uvprojx / *.uvoptx / DebugConfig / RTE / *.hex（可直接烧录）
